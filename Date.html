@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class MyDate{
+        constructor(_day,_month,_year) {
+            this.day = _day;
+            this.month = _month;
+            this.year = _year;
+        }
+        getdate(){
+            return(this.day + "/" + this.month + "/" + this.year);
+        }
+    }
+    let date = new MyDate(2,10,2000);
+    console.log(date.getdate())
+</script>
+</body>
+</html>
